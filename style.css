@@ -41,15 +41,16 @@ body {
   left: -5px;
   cursor: pointer;
   opacity: 0;
-  /* hide this */
+  
   z-index: 2;
-  /* place it over the hamburger */
+ 
   -webkit-touch-callout: none;
 }
 
 /*
  * Just a quick hamburger
  */
+
 #menuToggle span {
   display: block;
   width: 33px;
@@ -83,7 +84,7 @@ body {
 }
 
 /*
- * Hide the middle one.
+ * Hide the middle one
  */
 #menuToggle input:checked ~ span:nth-last-child(3) {
   opacity: 0;
